@@ -1,13 +1,10 @@
 (function() {
 var controls = document.querySelectorAll('.evo_c-scrolling-carousel_controller');
 var slides = document.querySelectorAll(".evo_c-scrolling-carousel_item");
-  var slideContainer = document.getElementById('evo_c-scrolling-nav-carousel');
+  var slideContainer = document.querySelector('.evo_c-scrolling-nav-carousel');
   var currentSlide = slides.length - 1;
   var notifier = document.querySelectorAll('.evo_c-scrolling-carousel_notifier li');
 
-  slideContainer.addEventListener('click',function () {
-            alert('tom');
-  }) ;
 slideContainer.addEventListener("wheel", controlSlider);
 
 function controlSlider(e) {
