@@ -1,7 +1,7 @@
 (function() {
 var controls = document.querySelectorAll('.evo_c-scrolling-carousel_controller'),
   slides = document.querySelectorAll(".evo_c-scrolling-carousel_item"),
-  slideContainer = document.querySelector('.evo_c-scrolling-nav-carousel'),
+  slideContainer = document.querySelector('.tom'),
   currentSlide = slides.length - 1,
   notifier = document.querySelectorAll('.evo_c-scrolling-carousel_notifier li');
 
