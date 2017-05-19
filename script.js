@@ -5,6 +5,9 @@ var slides = document.querySelectorAll(".evo_c-scrolling-carousel_item");
   var currentSlide = slides.length - 1;
   var notifier = document.querySelectorAll('.evo_c-scrolling-carousel_notifier li');
 
+  slideContainer.addEventListener('click',function () {
+            alert('tom');
+  }) ;
 slideContainer.addEventListener("wheel", controlSlider);
 
 function controlSlider(e) {
