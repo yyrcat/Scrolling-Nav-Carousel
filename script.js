@@ -1,3 +1,4 @@
+(function() {
 var controls = document.querySelectorAll('.evo_c-scrolling-carousel_controller'),
   slides = document.querySelectorAll(".evo_c-scrolling-carousel_item"),
   slideContainer = document.querySelector('.evo_c-scrolling-nav-carousel'),
@@ -67,3 +68,4 @@ function goToSlide(n) {
 
   }
 }
+})();
