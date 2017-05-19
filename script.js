@@ -1,9 +1,9 @@
 (function() {
-var controls = document.querySelectorAll('.evo_c-scrolling-carousel_controller'),
-  slides = document.querySelectorAll(".evo_c-scrolling-carousel_item"),
-  slideContainer = document.querySelector('.evo_c-scrolling-nav-carousel'),
-  currentSlide = slides.length - 1,
-  notifier = document.querySelectorAll('.evo_c-scrolling-carousel_notifier li');
+var controls = document.querySelectorAll('.evo_c-scrolling-carousel_controller');
+var slides = document.querySelectorAll(".evo_c-scrolling-carousel_item");
+  var slideContainer = document.querySelector('.evo_c-scrolling-nav-carousel');
+  var currentSlide = slides.length - 1;
+  var notifier = document.querySelectorAll('.evo_c-scrolling-carousel_notifier li');
 
 slideContainer.addEventListener("wheel", controlSlider);
 
