@@ -2,7 +2,7 @@ body {
   height: 2000px;
 }
 
-#evo_c-scrolling-nav-carousel {
+.evo_c-scrolling-nav-carousel {
   position: relative;
   height: 20em;
   padding: 0;
